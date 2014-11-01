@@ -1,12 +1,103 @@
-#navbar {
-	position:absolute;
-	top:0;
+header {
+	background-image: url('content/BirthdayHeader.png');
+	height: 115px;
+	color: #fff;
+}
+
+header .title {
+	font-size: 40px;
+	padding-left: 50px;
+	line-height: 1;
+}
+
+header .subtitle {
+	padding-left: 50px;
 }
 
 footer {
 	padding-bottom: 100px;
+	background-color: #333333;
 }
 
-main {
-	padding: 50px;
+h1 {
+	font-weight: bold;
+}
+
+nav {
+	background-color: #000;
+	height:50px;
+	color: #fff;
+	min-width: 350px;
+}
+
+aside button {
+	width: 100%;
+}
+
+#content {
+	padding: 50px 100px 50px 100px;
+}
+
+#navbar {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	list-style: none;
+	position: relative;
+	left: 50%;
+}
+
+#navbar ul li {
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+}
+
+#navbar ul li a:hover {
+	color: #fff;
+	background-color: #369;
+}
+
+#navbar li {
+	float: left;
+	position: relative;
+}
+/* ie needs position:relative here*/
+
+#navbar a {
+	text-decoration: none;
+	margin: 10px;
+	float: left;
+	color: #fff;
+	padding: 2px 5px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+#navbar a:hover {
+	color: #ddd;
+}
+
+#contributors {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+	list-style: none;
+}
+
+#contributors li {
+	padding-bottom: 10px;
 }
