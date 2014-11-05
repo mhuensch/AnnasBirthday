@@ -1,18 +1,18 @@
 header {
 	background-image: url('content/BirthdayHeader.png');
-	height: 115px;
+	height: 75px;
 	color: #fff;
 }
 
 header .title {
-	font-size: 40px;
+	font-size: 20px;
 	padding-left: 50px;
 	line-height: 1;
 }
 
 header .subtitle {
 	padding-left: 50px;
-	font-size: 25px;
+	font-size: 15px;
 }
 
 footer {
@@ -28,7 +28,7 @@ nav {
 	background-color: #000;
 	height:50px;
 	color: #fff;
-	min-width: 350px;
+	font-size: 14px;
 }
 
 aside button {
@@ -36,7 +36,7 @@ aside button {
 }
 
 #content {
-	padding: 50px 100px 50px 100px;
+	padding: 20px 40px 20px 40px;
 }
 
 #navbar {
@@ -63,12 +63,11 @@ aside button {
 #navbar ul li a {
 	text-decoration: none;
 	padding: .2em 1em;
-	color: #fff;
+	color: #ccc;
 }
 
 #navbar ul li a:hover {
 	color: #fff;
-	background-color: #369;
 }
 
 #navbar li {
@@ -103,6 +102,34 @@ aside button {
 	padding-bottom: 10px;
 }
 
-.full {
-	width: 100%;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	nav{
+		font-size: 18px;
+	}
+
+	#content {
+		padding: 50px 100px 50px 100px;
+	}
+
+	header {
+		height: 115px;
+	}
+
+	header .title {
+		font-size: 45px;
+	}
+
+	header .subtitle {
+		font-size: 25px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
