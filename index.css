@@ -12,6 +12,7 @@ header .title {
 
 header .subtitle {
 	padding-left: 50px;
+	font-size: 25px;
 }
 
 footer {
@@ -102,3 +103,6 @@ aside button {
 	padding-bottom: 10px;
 }
 
+.full {
+	width: 100%;
+}

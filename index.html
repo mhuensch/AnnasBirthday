@@ -1,39 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Gift donations for Anna Huensch's special birthday gift">
-	<title>Anna's Birthday Gift</title>
+
 	<link rel="shortcut icon" type="image/x-icon" href="./content/favicon.ico">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
-	<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css">-->
 	<link rel="stylesheet" href="index.css">
+
+	<title>Anna's Birthday Gift</title>
 </head>
 
 <body>
+
+
+
 	<nav>
 		<div id="navbar">
 			<div class="nav">
 				<ul class="nav-list">
 					<li><a href="#story">The Backstory</a></li>
 					<li><a href="#gift">The Gift</a></li>
-					<li><a href="#contribute">Contribute</a></li>
+					<li><a href="#goal">Contribute</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<header>
-		<span class="title">Anna's 25th Birthday</span><br />
-		<span class="subtitle">We Found the Perfect Gift!</span>
+		<span class="title">We Found the Perfect Gift</span><br />
+		<span class="subtitle">for Anna's 25th Birthday!</span>
 	</header>
 
 	<div id="content">
 		<div class="row">
 
-			<main class="col-lg-10 col-md-12">
+			<main class="col-lg-9 col-md-12">
 
 				<section id="story">
 					<h1>The Backstory</h1>
@@ -117,8 +122,8 @@
 
 			</main>
 
-			<aside class="col-lg-2 col-md-12">
-				<h1>Contributors</h1>
+			<aside class="col-lg-3 col-md-12">
+				<h1>Contributions</h1>
 				<ul id="contributors">
 					<li>
 						<img src="content/Becky.png" width="50" height="50" />
@@ -132,7 +137,7 @@
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="4DB86YTHEMYLG">
-					<button type="submit" class="btn btn-success">I Want to Contribute</button>
+					<button type="submit" class="btn btn-success full">I Want to Contribute</button>
 				</form>
 			</aside>
 
@@ -142,6 +147,11 @@
 	<footer>
 		Footer infor goes here
 	</footer>
+
+	<div style="position:fixed; top:0; right:0; background-color:grey;">
+		<h1>600/200</h1>
+		<button type="submit" class="btn btn-success">I Want to Contribute</button>
+	</div>
 
 </body>
 </html>
