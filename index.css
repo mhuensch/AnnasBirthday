@@ -130,6 +130,28 @@ h2 {
 	padding-top: 20px;
 }
 
+/**
+ * Progress bars with centered text
+ */
+
+.progress {
+	position: relative;
+	height: 50px;
+}
+
+.progress span {
+	position: absolute;
+	display: block;
+	width: 100%;
+	color: black;
+	font-size: 18px;
+	font-weight:bold;
+ }
+
+.progress-bar {
+	padding-top:15px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	nav{
@@ -160,7 +182,5 @@ h2 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	#alternateForm {
-		visibility:visible;
-	}
+
 }
