@@ -11,8 +11,9 @@ p {
 }
 
 header {
+	padding-top:30px;
 	background-image: url('content/BirthdayHeader.png');
-	height: 75px;
+	height: 100px;
 	color: #fff;
 }
 
@@ -149,7 +150,7 @@ h2 {
  }
 
 .progress-bar {
-	padding-top:15px;
+	padding-top:5px;
 }
 
 /* Small devices (tablets, 768px and up) */
