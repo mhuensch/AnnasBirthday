@@ -29,12 +29,12 @@ setInterval(function () {
 	}
 
 	if (days > 0) {
-		countdown.innerHTML = '<span class="remaining">' + days + ' Days to Go!</span> ';
+		countdown.innerHTML = '<span class="remaining">' + days + ' Days to Go</span> ';
 		return;
 	}
 
 	countdown.innerHTML =
-	'<span class="remaining">' + hours + ' Hours ' + minutes + ' Minutes ' + seconds + ' to Go!</span>';
+	'<span class="remaining">' + hours + ' Hours ' + minutes + ' Minutes ' + seconds + ' Seconds to Go</span>';
 
 }, 1000);
 
